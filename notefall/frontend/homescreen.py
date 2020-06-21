@@ -19,7 +19,7 @@ thorpy.makeup.add_basic_help(exitbutton, "Exit the game.")
 
 elements = [title, playbutton, optionsbutton, exitbutton]
 
-background = thorpy.Background(image="default_theme/homescreen_bg.jpg", elements=[title, playbutton, optionsbutton, exitbutton])
+background = thorpy.Background(image="assets/homescreen_bg.jpg", elements=[title, playbutton, optionsbutton, exitbutton])
 
 thorpy.store(background)
 
